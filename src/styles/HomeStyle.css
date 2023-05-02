@@ -1,0 +1,84 @@
+.page-card{
+    margin: 4vw;
+    display: grid;
+    grid-template-columns: 45vw 45vw;
+    row-gap: 5vw;
+    column-gap: 2vw;
+}
+
+.card-container{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-title{
+    text-decoration: none;
+    color: white;
+    padding: 2vw;
+}
+
+.card-image{
+    border-radius: 2vw;
+    width: 45vw;
+    height: 60vw;
+}
+
+.fav-btn{
+    width: 40vw;
+    height: 6vw;
+    border: 0;
+    border-radius: 2vw;
+}
+
+.page h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.search-container input{
+    width: 60vw;
+    height: 6vw;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.detail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5vw;
+}
+
+.detail-text{
+    color: white;
+    margin: 5vw;
+}
